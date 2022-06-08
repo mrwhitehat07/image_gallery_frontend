@@ -1,0 +1,92 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.logo{
+    flex-basis: 15%;
+    cursor: center;
+    float: left;
+
+}
+.logo img{
+    width: 100px;
+    height: 100px;
+    margin: 15px 0s;
+    float: left;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-color: #b1c6f7;
+    font-family: sans-serif;
+}
+
+.signup-box{
+   width: 360px;
+    height: 800px;
+    margin: auto;
+    background-color: rgb(14, 13, 13);
+    border-radius: 3px;
+}
+form{
+    width: 300px;
+    margin: left;
+    padding-left: 45%;
+}
+form label{
+    display: flex;
+    margin-top: 16px;
+    font-size: 25px;
+}
+form input{
+    border-radius: 20px;
+    width: 100px;
+    padding: 10px;
+    border: 1px solid rgb(70, 68, 68);
+    border-radius: 10px;
+    outline: none;
+    height: 35px;
+    font-size: 10px;
+    background: none;
+    margin: 10px 0%;
+   
+}
+checkbox{
+    border-radius: 5px;
+    padding: 5px;
+    border: 1px solid rgb(233, 10, 10); 
+    height: 5px;
+}
+input[type="submit"]{
+    width: 100px;
+    height: 50px;
+    border: 1px solid;
+    background: #0b91e4;
+    border-radius: 25px;
+    font-size: 18px;
+    color: e9f4fb;
+    font-weight: 700;
+    cursor: pointer;
+    outline: none;
+}
+input[type="submit"]:hover{
+    border-color: #2691d9;
+    transition: 5s;
+}
+p{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 15px;
+}
+.para-2{
+    text-align: center;
+    color: rgb(15, 14, 14);
+    font-size: 15px;
+    margin-top: -10px;
+}
+.para-2 a{
+    color: #49c1a2;
+}
